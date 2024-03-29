@@ -38,7 +38,7 @@ My research interest includes neural machine translation and computer vision. I 
 
 **Yuanzhang Lin**, Guoyao Wen, Xiang Gao
 <a href="../papers/ASE23_UITESTFIX.pdf"><img src="../images/pdf.png" width="20" height="20"></a>
-<a href="https://github.com/YuanzhangLin/UITestFix"><img src="../images/Github.png" width="20" height="20"></a>
+<a href="https://github.com/YuanzhangLin/UITestFix"><img src="../images/GitHub.png" width="20" height="20"></a>
 
 
 <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
