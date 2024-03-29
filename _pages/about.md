@@ -31,20 +31,21 @@ My research interest includes neural machine translation and computer vision. I 
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ASE 2023</div><img src='images/UITestFix_framework.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ASE 2023</div><img src='../images/UITestFix_framework.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Automated Fixing of Web UI Tests via Iterative Element Matching](../papers/ASE23_UITESTFIX.pdf)
+<h3><strong>Automated Fixing of Web UI Tests via Iterative Element Matching</strong></h3>
 
 **Yuanzhang Lin**, Guoyao Wen, Xiang Gao
+<a href="../papers/ASE23_UITESTFIX.pdf"><img src="../images/pdf.png" width="20" height="20"></a>
+<a href="https://github.com/YuanzhangLin/UITestFix"><img src="../images/Github.png" width="20" height="20"></a>
 
-[**Project**](https://ieeexplore.ieee.org/abstract/document/10298535/) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Web UI test cases are employed to automatically test web applications. 
-<!-- - When a web application undergoes updates, these UI tests need to be updated as well to perform regression testing on the new version of the web application.  --> However, keeping UI tests up-to-date can be a tedious and time-consuming task due to the rapid evolution of web applications. Consequently, there has been increasing attention on automatically repairing web UI tests to address these challenges. 
-The key step in repairing web UI tests is to match the UI elements before and after the web page update. Previous approaches have matched UI elements based on visual information, attribute values, or Document Object Model (DOM) structures. However, these approaches either achieve low accuracy in element matching or are limited to simple UI tests. 
-To address these issues, we propose UITESTFIX, an approach based on a novel iterative matching algorithm aimed at improving the accuracy of UI element matching. 
+<!-- - When a web application undergoes updates, these UI tests need to be updated as well to perform regression testing on the new version of the web application.  --> However, keeping UI tests up-to-date can be a tedious and time-consuming task due to the rapid evolution of web applications. Consequently, there has been increasing attention on automatically repairing web UI tests to address these challenges. To address these issues, we propose UITESTFIX, an approach based on a novel iterative matching algorithm aimed at improving the accuracy of UI element matching. 
 <!-- UITESTFIX is designed based on two main insights: (1) the relations between different elements can provide guidance in the matching process, and (2) the results of previous iterations can inform the matching process in the current iteration.  -->
-Our evaluation using publicly available datasets and two industrial apps demonstrates that UITESTFIX outperforms four existing approaches by achieving more accurate element matching and producing more correct fixes.
+<!-- Our evaluation using publicly available datasets and two industrial apps demonstrates that UITESTFIX outperforms four existing approaches by achieving more accurate element matching and producing more correct fixes. -->
 </div>
 </div>
 
