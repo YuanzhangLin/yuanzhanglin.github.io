@@ -26,7 +26,7 @@ My research interest includes neural machine translation and computer vision. I 
 
 
 # 🔥 News
-- *2023.11*: &nbsp;🎉🎉 Aug, 2023 Our paper **"Automated Fixing of Web UI Tests via Iterative Element Matching"** has been accepted by the ASE'23 research papers track. 
+- *2023.08*: &nbsp;🎉🎉 Our paper **"Automated Fixing of Web UI Tests via Iterative Element Matching"** has been accepted by the ASE'23 research papers track. 
 
 
 # 📝 Publications 
