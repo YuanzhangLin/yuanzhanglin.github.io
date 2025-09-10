@@ -26,17 +26,43 @@ My research interest includes neural machine translation and computer vision. I 
 
 
 # 🔥 News
+- *2025*: &nbsp;🎉🎉 Our paper **"UICOMPASS: UI Map Guided Mobile Task Automation via Adaptive Action Generation"** has been accepted by the EMNLP'25 research papers track (Main conference). 
 - *2023.08*: &nbsp;🎉🎉 Our paper **"Automated Fixing of Web UI Tests via Iterative Element Matching"** has been accepted by the ASE'23 research papers track. 
 
 
 # 📝 Publications 
 
+<!--EMNLP2025-->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025</div><img src='../images/UICOMPASS_framework.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<h3><strong>UICOMPASS: UI Map Guided Mobile Task Automation via Adaptive Action Generation</strong></h3>
+
+**Yuanzhang Lin**, Zhe Zhang, Rui He, Qingao Dong, Mingyi Zhou, Jing Zhang, Xiang Gao*, Hailong Sun*
+<a href="../papers/EMNLP25_UICOMPASS.pdf"><img src="../images/pdf.png" width="20" height="20"></a>
+<a href="https://github.com/YuanzhangLin/UICompass"><img src="../images/GitHub.png" width="20" height="20"></a>
+
+
+<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- Web UI test cases are employed to Mobile task automation is an emerging technology that leverages AI to automatically execute routine tasks by users' commands on mobile devices like Android, thus enhancing efficiency and productivity. 
+While large language models (LLMs) excel at general mobile tasks through training on massive datasets, they struggle with app-specific workflows. 
+To solve this problem, we designed UI Map, a structured representation of target app's UI information.
+We further propose a UI Map-guided LLM-based approach UICOMPASS to automate mobile tasks.
+Specifically, UICOMPASS first leverages static analysis and LLMs to automatically build UI Map from either source codes of apps or byte codes (\emph{i.e.,} APK packages).
+During task execution, UICOMPASS mines the task-relevant information from UI Map to feed into the LLMs, generates a planned path, and adaptively adjusts the path based on the actual app state and action history.
+Experimental results demonstrate that UICOMPASS achieves a 15.87\% higher task executing success rate than SOTA approaches.
+Even when only APK is available, UICOMPASS maintains superior performance, demonstrating its applicability to closed-source apps.
+</div>
+</div>
+
+
+<!--ASE23-->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ASE 2023</div><img src='../images/UITestFix_framework.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <h3><strong>Automated Fixing of Web UI Tests via Iterative Element Matching</strong></h3>
 
-**Yuanzhang Lin**, Guoyao Wen, Xiang Gao
+**Yuanzhang Lin**, Guoyao Wen, Xiang Gao*
 <a href="../papers/ASE23_UITESTFIX.pdf"><img src="../images/pdf.png" width="20" height="20"></a>
 <a href="https://github.com/YuanzhangLin/UITestFix"><img src="../images/GitHub.png" width="20" height="20"></a>
 
