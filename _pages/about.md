@@ -46,12 +46,12 @@ My research interest includes neural machine translation and computer vision. I 
 <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Web UI test cases are employed to Mobile task automation is an emerging technology that leverages AI to automatically execute routine tasks by users' commands on mobile devices like Android, thus enhancing efficiency and productivity. 
 While large language models (LLMs) excel at general mobile tasks through training on massive datasets, they struggle with app-specific workflows. 
-To solve this problem, we designed UI Map, a structured representation of target app's UI information.
-We further propose a UI Map-guided LLM-based approach UICOMPASS to automate mobile tasks.
+To solve this problem, we designed UI Map, a structured representation of target app's UI information...
+<!-- We further propose a UI Map-guided LLM-based approach UICOMPASS to automate mobile tasks.
 Specifically, UICOMPASS first leverages static analysis and LLMs to automatically build UI Map from either source codes of apps or byte codes (\emph{i.e.,} APK packages).
 During task execution, UICOMPASS mines the task-relevant information from UI Map to feed into the LLMs, generates a planned path, and adaptively adjusts the path based on the actual app state and action history.
 Experimental results demonstrate that UICOMPASS achieves a 15.87\% higher task executing success rate than SOTA approaches.
-Even when only APK is available, UICOMPASS maintains superior performance, demonstrating its applicability to closed-source apps.
+Even when only APK is available, UICOMPASS maintains superior performance, demonstrating its applicability to closed-source apps. -->
 </div>
 </div>
 
