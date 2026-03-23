@@ -16,8 +16,12 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %} -->
 
 <span class='anchor' id='about-me'></span>
-Currently researching in the field of software testing.
+I am a PhD candidate at Beihang University, advised by [Xiang Gao](https://gaoxiang9430.github.io/index.html) , and a member of the SDP Group co-advised by [Hailong Sun](https://hsun2022.github.io/) and [Xiang Gao](https://gaoxiang9430.github.io/index.html). Previously, I received my Master's degree from Southern University of Science and Technology, advised by [Shin Hwei Tan](https://www.shinhwei.com/) , and my Bachelor's degree from Xidian University.
 
+My research interests include:
+- GUI Agent & Mobile Task Automation
+- AI-powered Software GUI Testing & GUI Test Repair
+- Program Analysis for GUI Applications
 
 
 <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
@@ -89,5 +93,23 @@ Even when only APK is available, UICOMPASS maintains superior performance, demon
 <!-- - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 
-# 💻 Internships
-- *2021.07 - 2023.05*, Huawei, China.
+### Co-authored Papers
+
+- **Reference-Based Retrieval-Augmented Unit Test Generation**  
+  Zhe Zhang, Xingyu Liu, **Yuanzhang Lin**, Xiang Gao#, Hailong Sun#, Yuan, Yuan, *TOSEM 2025* (CCF A)
+
+- **Enhanced Automated Vulnerability Repair through Dependency Embedding and Pattern Store**  
+  Qingao Dong, **Yuanzhang Lin**, Hailong Sun, Xiang Gao#
+, *SANER 2025* (CCF B)
+
+- **Enhanced Vulnerability Localization: Harmonizing Task-Enhanced Tuning and General LLM Prompting**  
+  Wentong Tian, **Yuanzhang Lin**, Xiang Gao#, Hailong Sun#
+, *ICSME 2025* (CCF B)
+
+
+## 💻 Internships
+
+### Huawei Technologies Co., Ltd. - Automated Repair of GUI tests
+*2021.07 – 2023.05 | Dongguan, China*
+
+
