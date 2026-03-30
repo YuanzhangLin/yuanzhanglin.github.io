@@ -108,8 +108,8 @@
           <a href="https://scholar.google.com/citations?user={{ author.googlescholar }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
             <i class="fab fa-fw fa-google" aria-hidden="true"></i> Google Scholar
             {% if site.data.scholar.citations > 0 %}
-              <span style="display: inline-block; background: #2867B2; color: white; border-radius: 12px; padding: 2px 8px; margin-left: 8px; font-size: 0.7rem; font-weight: normal;">
-                📊 {{ site.data.scholar.citations }} cites | h-index: {{ site.data.scholar.h_index }}
+              <span style="margin-left: 6px; font-size: 0.8rem; color: #666;">
+                ({{ site.data.scholar.citations }} citations)
               </span>
             {% endif %}
           </a>
