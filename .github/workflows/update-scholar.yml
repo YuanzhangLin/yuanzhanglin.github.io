@@ -9,15 +9,15 @@ jobs:
   update-scholar:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4  # 升级到 v4
       
       - name: Setup Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5  # 升级到 v5
         with:
           python-version: '3.x'
           
       - name: Install dependencies
-        run: pip install scholarly
+        run: pip install scholarly pyyaml  # 添加 pyyaml
         
       - name: Fetch Scholar Data
         run: |
