@@ -104,7 +104,16 @@
         <li><a href="https://vine.co/u/{{ author.vine }}"><i class="fab fa-fw fa-vine" aria-hidden="true"></i> Vine</a></li>
       {% endif %}
       {% if author.googlescholar %}
-        <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
+        <li>
+          <a href="https://scholar.google.com/citations?user={{ author.googlescholar }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-google" aria-hidden="true"></i> Google Scholar
+            {% if site.data.scholar.citations > 0 %}
+              <span style="display: inline-block; background: #2867B2; color: white; border-radius: 12px; padding: 2px 8px; margin-left: 8px; font-size: 0.7rem; font-weight: normal;">
+                📊 {{ site.data.scholar.citations }} cites | h-index: {{ site.data.scholar.h_index }}
+              </span>
+            {% endif %}
+          </a>
+        </li>
       {% endif %}
       {% if author.pubmed %}
         <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i> PubMed</a></li>

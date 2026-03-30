@@ -1,0 +1,61 @@
+name: Update Google Scholar Data
+
+on:
+  schedule:
+    - cron: '0 0 * * 1'  # 每周一 UTC 0点运行
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  update-scholar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+          
+      - name: Install dependencies
+        run: pip install scholarly
+        
+      - name: Fetch Scholar Data
+        run: |
+          python << EOF
+          from scholarly import scholarly
+          import yaml
+          from datetime import datetime
+          
+          scholar_id = "wQ_pDQYAAAAJ"
+          
+          try:
+              # 获取作者信息
+              author = scholarly.search_author_id(scholar_id)
+              citations = author.get('citedby', 0)
+              h_index = author.get('hindex', 0)
+              i10_index = author.get('i10index', 0)
+              
+              data = {
+                  'citations': citations,
+                  'h_index': h_index,
+                  'i10_index': i10_index,
+                  'scholar_url': f'https://scholar.google.com/citations?user={scholar_id}',
+                  'last_updated': datetime.now().strftime('%Y-%m-%d')
+              }
+              
+              with open('_data/scholar.yml', 'w') as f:
+                  yaml.dump(data, f, default_flow_style=False, allow_unicode=True)
+                  
+              print(f"✅ Updated: {citations} citations, h-index: {h_index}, i10-index: {i10_index}")
+              
+          except Exception as e:
+              print(f"❌ Error: {e}")
+              exit(1)
+          EOF
+          
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add _data/scholar.yml
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Auto-update Google Scholar metrics [skip ci]" && git push)
