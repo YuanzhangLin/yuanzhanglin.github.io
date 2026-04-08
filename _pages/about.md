@@ -107,6 +107,26 @@ Even when only APK is available, UICOMPASS maintains superior performance, demon
 , *ICSME 2025* (CCF B)
 
 
+## Project
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge" style="background-color: #d73a49;">Open Source</div>
+      <img src='../images/GUI-Anything-logo.png' alt="GUI-Anything Logo" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+<h3><strong>GUI-Anything: Intelligent Android Analysis & Security Audit Platform</strong><a href="https://github.com/YuanzhangLin/GUI-Anything">  <img src="../images/GitHub.png" width="20" height="20"></a></h3>
+
+
+- **GUI-Anything** is an AI-powered platform designed for automated Android application analysis and security auditing. 
+- By integrating **DeepSeek-V3** with **UI Map**(EMNLP 25), it reasons over app navigation structures to detect complex business logic vulnerabilities. 
+- It features an interactive graph visualization of activity transitions and real-time streaming audit reports. 
+- **[Call for Collaboration]**: We are actively looking for contributors to enhance our security rules and LLM-driven reasoning engine. Join us on GitHub!
+</div>
+</div>
+
 ## 💻 Internships
 
 ### Huawei Technologies Co., Ltd. - Automated Repair of GUI tests
