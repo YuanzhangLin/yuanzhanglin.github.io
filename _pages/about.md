@@ -33,7 +33,7 @@ My research interest includes neural machine translation and computer vision. I 
 - *2025*: &nbsp;🎉🎉 Our paper **"UICOMPASS: UI Map Guided Mobile Task Automation via Adaptive Action Generation"** has been accepted by the EMNLP'25 research papers track (Main conference). 
 - *2023.08*: &nbsp;🎉🎉 Our paper **"Automated Fixing of Web UI Tests via Iterative Element Matching"** has been accepted by the ASE'23 research papers track. 
 
-
+<span class='anchor' id='Project'></span>
 # 📝 Publications 
 
 <!--EMNLP2025-->
