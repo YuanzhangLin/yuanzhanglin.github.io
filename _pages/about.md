@@ -107,7 +107,7 @@ Even when only APK is available, UICOMPASS maintains superior performance, demon
 , *ICSME 2025* (CCF B)
 
 
-## Project
+# 📁  Project
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
