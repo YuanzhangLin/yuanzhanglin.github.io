@@ -46,7 +46,6 @@ My research interest includes neural machine translation and computer vision. I 
 <a href="https://github.com/YuanzhangLin/UICompass"><img src="../images/GitHub.png" width="20" height="20"></a>
 
 
-<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Web UI test cases are employed to Mobile task automation is an emerging technology that leverages AI to automatically execute routine tasks by users' commands on mobile devices like Android, thus enhancing efficiency and productivity. 
 While large language models (LLMs) excel at general mobile tasks through training on massive datasets, they struggle with app-specific workflows. 
 To solve this problem, we designed UI Map, a structured representation of target app's UI information...
@@ -70,7 +69,6 @@ Even when only APK is available, UICOMPASS maintains superior performance, demon
 <a href="https://github.com/YuanzhangLin/UITestFix"><img src="../images/GitHub.png" width="20" height="20"></a>
 
 
-<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Web UI test cases are employed to automatically test web applications. 
 <!-- - When a web application undergoes updates, these UI tests need to be updated as well to perform regression testing on the new version of the web application.  --> However, keeping UI tests up-to-date can be a tedious and time-consuming task due to the rapid evolution of web applications. Consequently, there has been increasing attention on automatically repairing web UI tests to address these challenges. To address these issues, we propose UITESTFIX, an approach based on a novel iterative matching algorithm aimed at improving the accuracy of UI element matching. 
 <!-- UITESTFIX is designed based on two main insights: (1) the relations between different elements can provide guidance in the matching process, and (2) the results of previous iterations can inform the matching process in the current iteration.  -->
@@ -104,28 +102,6 @@ Even when only APK is available, UICOMPASS maintains superior performance, demon
 - **Enhanced Vulnerability Localization: Harmonizing Task-Enhanced Tuning and General LLM Prompting**  
   Wentong Tian, **Yuanzhang Lin**, Xiang Gao#, Hailong Sun#
 , *ICSME 2025* (CCF B)
-
-<span class='anchor' id='project'></span>
-
-# 📁  Project
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge" style="background-color: #d73a49;">Open Source</div>
-      <img src='../images/GUI-Anything-logo.png' alt="GUI-Anything Logo" width="100%">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-
-<h3><strong>GUI-Anything: Intelligent Android Analysis & Security Audit Platform</strong><a href="https://github.com/YuanzhangLin/GUI-Anything">  <img src="../images/GitHub.png" width="20" height="20"></a></h3>
-
-
-- **GUI-Anything** is an AI-powered platform designed for automated Android application analysis and security auditing. 
-- By integrating **DeepSeek-V3** with **UI Map**(EMNLP 25), it reasons over app navigation structures to detect complex business logic vulnerabilities. 
-- It features an interactive graph visualization of activity transitions and real-time streaming audit reports. 
-- **[Call for Collaboration]**: We are actively looking for contributors to enhance our security rules and LLM-driven reasoning engine. Join us on GitHub!
-</div>
-</div>
 
 ## 💻 Internships
 

@@ -10,9 +10,5 @@ main:
     url: "/#-publications"
 
 
-  - title: "Project"
-    url: "/#project"
-
-
   - title: "Internships"
     url: "/#-internships"
