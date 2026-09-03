@@ -105,7 +105,35 @@ Even when only APK is available, UICOMPASS maintains superior performance, demon
 
 ## 💻 Internships
 
-### Huawei Technologies Co., Ltd. - Automated Repair of GUI tests
-*2021.07 – 2023.05 | Dongguan, China*
+<div class="internship-card">
+  <div class="internship-card__logo">
+    <img src="../images/hithink-royalflush-logo.png" alt="Hithink RoyalFlush logo">
+  </div>
+  <div class="internship-card__content" markdown="1">
+
+### Hithink RoyalFlush Information Network Co., Ltd. - GUI Agent & LLM Post-training
+
+*2026.05 – Present \| Industry–University Collaboration*
+
+Research on knowledge-enhanced GUI agents for mobile testing, and infrastructure for agentic model post-training and benchmark evaluation.
+
+  </div>
+</div>
+
+<div class="internship-card internship-card--huawei">
+  <div class="internship-card__logo">
+    <span class="huawei-lockup" role="img" aria-label="Huawei logo">
+      <img class="huawei-lockup__mark" src="../images/huawei-mark.svg" alt="">
+      <img class="huawei-lockup__wordmark" src="../images/huawei-logo.svg" alt="">
+    </span>
+  </div>
+  <div class="internship-card__content" markdown="1">
+
+### Huawei Technologies Co., Ltd. - Automated Repair of GUI Tests
+
+*2021.07 – 2023.05 \| Dongguan, China*
+
+  </div>
+</div>
 
 

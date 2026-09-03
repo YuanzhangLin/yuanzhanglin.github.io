@@ -1,5 +1,6 @@
 _site/
 .bundle/
 vendor/
+.jekyll-local.yml
 push.sh
 .DS_Store
