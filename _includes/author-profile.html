@@ -107,11 +107,6 @@
         <li>
           <a href="https://scholar.google.com/citations?user={{ author.googlescholar }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
             <i class="fab fa-fw fa-google" aria-hidden="true"></i> Google Scholar
-            {% if site.data.scholar.citations > 0 %}
-              <span style="margin-left: 6px; font-size: 0.8rem; color: #666;">
-                ({{ site.data.scholar.citations }} citations)
-              </span>
-            {% endif %}
           </a>
         </li>
       {% endif %}
